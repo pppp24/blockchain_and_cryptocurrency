@@ -1,0 +1,28 @@
+{
+  "name": "node-http-server",
+  "version": "1.0.0",
+  "description": "Node.js example server starter project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./app",
+    "dev-test": "node ./src",
+    "start": "node ./app",
+    "test": "jest --watchAll"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "dependencies": {
+    "crypto-js": "3.1.9-1",
+    "elliptic": "6.5.2",
+    "express": "4.17.1",
+    "jest": "25.1.0",
+    "jest-cli": "25.1.0",
+    "uuid": "3.4.0",
+    "ws": "7.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4"
+  },
+  "keywords": []
+}
